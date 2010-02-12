@@ -1,0 +1,9 @@
+<p>
+  <b>Title:</b>
+  <%= link_to_unless_current h(post.title), post %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%=h post.body %>
+</p>
